@@ -24,11 +24,13 @@ The nicest thing about this concept is that you never need to change C++ syntax.
 
   * There are file-scoped usages.
 
+  * All old dependencies are handled by a _prolog_ file, that is of old C++ syntax with all includes and global defines.
+
 == Syntax Changes ==
-Some syntax changes have to be done. However, their number must be kept as low as possible.
+Some syntax changes still have to be done. However, their number must be kept as low as possible.
 
   * Each file starts with namespace header. This is the only major change so far needed to better facilitate nested namespaces.
 
-  * Static fields are fully declarated inline together with their initializers.
+  * Static fields are fully declarated inline together with their initializers, because everything should be moved inline.
 
-  * "<" and "> must be be put in parentheses when are a part of expression inside template parameter to let parser overview look ahead.
+  * "<" and ">" must be be put in parentheses when are part of expression inside template parameter, to let parser easily look over declarations.
