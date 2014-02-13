@@ -1,5 +1,3 @@
-# clang based experimental compiler.
-
 = Experimental Compiler =
 
 Try it out now just on the [http://peter.rybin.spb.ru/roger web-page].
