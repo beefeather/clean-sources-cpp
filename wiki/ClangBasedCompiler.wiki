@@ -4,6 +4,4 @@
 
 Try it out now just on the [http://peter.rybin.spb.ru/roger web-page].
 
-The prototype is based on [http://clang.llvm.org/ clang compiler].
-
-The sources are soon to appear. Meanwhile the running copy is available for a try at the [http://peter.rybin.spb.ru/roger web-page].
+The prototype is based on [http://clang.llvm.org/ clang compiler]. The sources are soon to appear. Meanwhile the running copy is available for a try at the [http://peter.rybin.spb.ru/roger web-page].
